@@ -18,4 +18,48 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <!-- Spring Boot Starter -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <!-- Spring Boot Starter für Web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- Spring Boot Starter für Datenbank -->
+        <!-- Hier können Sie die passende Datenbank-Abhängigkeit auswählen (z. B. spring-boot-starter-data-jpa für JPA) -->
+
+        <!-- Spring Boot Starter für Security -->
+        <!-- Hier können Sie die Security-Abhängigkeit hinzufügen, wenn Sie Sicherheitsfunktionen benötigen -->
+
+        <!-- H2-Datenbank (für Entwicklungszwecke) -->
+        <!-- Wenn Sie eine andere Datenbank verwenden, ersetzen Sie dies durch die entsprechende Abhängigkeit -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- Spring Boot DevTools (optional, für Entwicklung) -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- Spring Boot Test (für Tests) -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+
 </project>
+

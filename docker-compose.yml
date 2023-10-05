@@ -29,13 +29,14 @@ services:
     image: mariadb
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: spring
-      MYSQL_USER: springuser
-      MYSQL_PASSWORD: springpw
+      MYSQL_DATABASE: db_webproject
+      MYSQL_USER: webprojectuser
+      MYSQL_PASSWORD: webprojectpw
     ports:
       - "3306:3306"
     volumes:
       - db-data:/var/lib/mysql
+      - ./setup.sql:/docker-entrypoint-initdb.d/setup.sql  # Mounte das SQL-Skript
     networks:
       - app
 
