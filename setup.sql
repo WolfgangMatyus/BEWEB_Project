@@ -1,8 +1,8 @@
 -- Erstelle die Datenbank, wenn sie noch nicht existiert
-CREATE DATABASE IF NOT EXISTS spring;
+CREATE DATABASE IF NOT EXISTS db_webproject;
 
 -- Verwende die erstellte Datenbank
-USE spring;
+USE db_webproject;
 
 -- Erstelle die "Users" Tabelle
 CREATE TABLE IF NOT EXISTS Users (

@@ -1,6 +1,7 @@
 com\backend\contoller\RegistrierungsController.class
-com\backend\contoller\WebController.class
-com\backend\module\RegistrierungsResponse.class
-CorsConfig.class
-SpringRestBackendApplication.class
+com\backend\module\UserEntity.class
+com\backend\configuration\CorsConfig.class
 com\backend\module\RegistrierungsRequest.class
+com\backend\SpringRestBackendApplication.class
+com\backend\module\RegistrierungsResponse.class
+com\backend\repository\UserRepository.class

@@ -1,12 +1,12 @@
 package com.backend.module;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
+@AllArgsConstructor
+@Data
 public class RegistrierungsResponse {
     private String message;
 
-    public RegistrierungsResponse(String message) {
-        this.message = message;
-    }
-
-    // Getter
+    // Getter und Setter für das Feld "message" werden automatisch von Lombok generiert
 }
